@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace TanelPiinabGame
 {
@@ -10,7 +6,7 @@ namespace TanelPiinabGame
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, Tanel!");
+            Console.WriteLine($"Hello, { args[0] }");
         }
     }
 }

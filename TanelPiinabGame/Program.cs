@@ -31,10 +31,9 @@ namespace TanelPiinabGame{
                 Console.WriteLine($"{fmonster.Name} won!");
             }else {
                 Console.WriteLine($"{smonster.Name} won!");
-            }
-
-                
+            }         
+       }
     }
-
-
 }
+
+
